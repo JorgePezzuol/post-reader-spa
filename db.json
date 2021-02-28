@@ -1,0 +1,42 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "description": "post 1",
+      "userId": 1,
+      "datetime": "April 26, 2020 12:36"
+    },
+    {
+      "id": 2,
+      "description": "post 2",
+      "userId": 2,
+      "datetime": "April 26, 2020 12:36"
+    },
+    {
+      "id": 3,
+      "description": "post 3",
+      "userId": 2,
+      "datetime": "April 26, 2020 12:36"
+    },
+    {
+      "id": 4,
+      "description": "post 4",
+      "userId": 3,
+      "datetime": "April 26, 2020 12:36"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "user 1"
+    },
+    {
+      "id": 2,
+      "name": "user 2"
+    },
+    {
+      "id": 3,
+      "name": "user 3"
+    }
+  ]
+}
