@@ -45,7 +45,7 @@ function App() {
     <Router>
       <Container>
         <GlobalStyle />
-        <Route path="/user/:userId">
+        <Route path="/users/:userId">
           <UserList users={users} />
           <PostList posts={posts} />
         </Route>
