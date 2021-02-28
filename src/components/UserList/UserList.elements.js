@@ -21,10 +21,7 @@ export const UserLink = styled(Link)`
   &:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   }
-  ${props => props.active === 1} {
-    background: #eee
-  }
-
+  background: ${props => props.active ? '#eee' : ''};
 `;
 
 export const UserName = styled.span``;

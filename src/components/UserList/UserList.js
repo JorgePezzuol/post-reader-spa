@@ -30,7 +30,11 @@ const UserList = ({ users }) => {
         value={search}
       />
       {filteredUsers.map((user, index) => (
-        <UserLink active={parseInt(userId) === user.id ? 0 : 1}  key={index} to={`/users/${user.id}`}>
+        <UserLink
+          active={parseInt(userId) === user.id ? 1 : 0}
+          key={index}
+          to={`/users/${user.id}`}
+        >
           <UserName>{user.name}</UserName>
           <UserNumPostsBadge>{user.postsPerUser}</UserNumPostsBadge>
         </UserLink>
