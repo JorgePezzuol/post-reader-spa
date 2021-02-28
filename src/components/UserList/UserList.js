@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
 import {
   UserListContainer,
   UserLink,
@@ -10,6 +11,7 @@ import {
 const UserList = ({ users }) => {
   const [filteredUsers, setFilteredUsers] = useState([]);
   const [search, setSearch] = useState("");
+  const { userId } = useParams();
 
   useEffect(() => {
     setFilteredUsers(
@@ -28,7 +30,7 @@ const UserList = ({ users }) => {
         value={search}
       />
       {filteredUsers.map((user, index) => (
-        <UserLink key={index} to={`/user/${user.id}`}>
+        <UserLink isActive={parseInt(userId) === user.id} key={index} to={`/user/${user.id}`}>
           <UserName>{user.name}</UserName>
           <UserNumPostsBadge>{user.postsPerUser}</UserNumPostsBadge>
         </UserLink>
