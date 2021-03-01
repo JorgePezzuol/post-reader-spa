@@ -1,4 +1,4 @@
-# Post Reader SPA (Assignment)
+# Post Reader SPA
 
 Task:
 * Create a simple post reader as a React SPA.
