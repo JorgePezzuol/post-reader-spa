@@ -6,12 +6,12 @@ import {
   PostSearchInput,
 } from "./PostSearch.elements";
 
-const PostSearch = ({ setSearchPost }) => {
+const PostSearch = ({ setSearchPost, setSort }) => {
   return (
     <PostSearchContainer>
       <PostSearchButtonsContainer>
-        <PostSearchButtonAsc>Asc</PostSearchButtonAsc>
-        <PostSearchButtonDesc>Desc</PostSearchButtonDesc>
+        <PostSearchButtonAsc to="?sort=asc" onClick={() => setSort('asc')}>Asc</PostSearchButtonAsc>
+        <PostSearchButtonDesc to="?sort=desc" onClick={() => setSort('desc')}>Desc</PostSearchButtonDesc>
       </PostSearchButtonsContainer>
       <PostSearchInput
         type="text"

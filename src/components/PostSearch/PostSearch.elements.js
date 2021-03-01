@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const PostSearchContainer = styled.div`
   display: flex;
@@ -18,8 +19,8 @@ export const PostSearchButtonsContainer = styled.div`
   cursor: pointer;
 `;
 
-export const PostSearchButtonAsc = styled.a``;
+export const PostSearchButtonAsc = styled(Link)``;
 
-export const PostSearchButtonDesc = styled.a`
+export const PostSearchButtonDesc = styled(Link)`
   margin-left: 10px;
 `;
