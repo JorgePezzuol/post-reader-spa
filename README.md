@@ -25,7 +25,7 @@ Nice to haves:
 * npm run start
 
 ## Example
-
+<img src="posts.png" width="50%" height="40%">
 
 ## Contact
 [@jorgepezzuol](https://www.linkedin.com/in/jorge-pezzuol/)
