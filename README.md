@@ -23,6 +23,7 @@ Nice to haves:
 * npm install
 * npm run server
 * npm run start
+* access http://localhost:3000/users
 
 ## Example
 <img src="posts.png" width="50%" height="40%">
