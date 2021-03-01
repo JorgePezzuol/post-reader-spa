@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# Project
+Task
+	•	Create a simple post reader as a React SPA.
+	•	Implement above using React components and CSS3.
+	•	Retrieve the data shown in the app from the API described below.
+	•	Concentrate on functionality, code quality and testability, not appearance.
+	•	Any common state management, routing and/or testing library can be used.
+	•	Using CSS toolkits and UI frameworks (bootstrap etc) is not ok. The purpose is to evaluate your coding skills, not npm skills.
+Must haves:
+	•	Login Screen with email and name inputs.
+	•	Sender list with sender name and post count ordered by name alphabetically.
+	•	Clicking on a sender opens that sender's posts in the post list view.
+	•	Post list where posts are ordered by creation time.
+	•	Post order buttons to allow choosing most recent first and most recent last ordering for posts list
+Nice to haves:
+	•	Search box for senders. Any senders whose name do not contain the text entered are hidden
+	•	Search box for posts. Any posts that do not contain the text entered are hidden
+	•	Deep-linkable post list. This means that it is possible to enter a URL that directly selects the sender whose posts are shown.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Setup
+* clone/download and cd post-reader-spa
+* npm install
+* npm run server
+* npm run start
 
-## Available Scripts
+## Example
 
-In the project directory, you can run:
 
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact
+[@jorgepezzuol](https://www.linkedin.com/in/jorge-pezzuol/)
