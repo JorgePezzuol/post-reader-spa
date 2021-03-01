@@ -1,6 +1,6 @@
 # Post Reader SPA
 
-Task:
+## Task:
 * Create a simple post reader as a React SPA.
 * Implement above using React components and CSS3.
 * Retrieve the data shown in the app from the API described below.
